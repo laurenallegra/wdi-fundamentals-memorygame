@@ -43,21 +43,21 @@ header, footer, p {
 	height: 0;
 	font-size: 0;
 }
+
 .board {
 	height: 50%;
 	width: 50%;
 	display: inline-block;
 }
-.card {
-	float: left;
-	margin: 8%;
-}
+
 .card {
 	height: 200px;
 	width: 150px;
 	border: 1px solid black;
 	border-radius: 10px;
-	background: yellow;
+	background-color: yellow;
+	float: left;
+	margin: 8%;
 }
 .name {
 	color: #ff0000;
